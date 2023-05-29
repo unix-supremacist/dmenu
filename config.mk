@@ -33,4 +33,4 @@ CFLAGS   += -std=c99 -pedantic -Wall -Os $(INCS) $(CPPFLAGS)
 LDFLAGS  += $(LIBS)
 
 # compiler and linker
-CC = cc
+CC := cc
